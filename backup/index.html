@@ -1,0 +1,50 @@
+
+<html>
+	<head>
+		<title>gjhgjgf NexusUI</title>
+		<script src="socket.io/socket.io.js"></script>
+		
+		<script src="nexusUI.js"></script>
+		<script>
+			
+			
+			// setup websocket
+			var socket = io('/BELA_NEXUSUI');
+			
+			// nexusUI
+			nx.onload = function() {
+				
+				
+			    nx.colorize("accent", "#0be");
+			    nx.colorize("fill", "#444449");
+				
+				// initialize matrix
+				
+				seqmatrix.row = 6;
+				seqmatrix.col = 16;
+				seqmatrix.init();
+				
+				//seqmatrix.on('*',function(data) => socket.emit('seqmatrix', {id:1, value: data.value}));
+				
+				
+				// when slider1 changes, emit its value over the websocket
+				//seqmatrix.sendsTo("node");
+				nx.sendsTo("node");
+				
+
+								
+				
+			};
+			
+			
+			
+		</script>
+	</head>
+		
+	<body>
+		<canvas nx="matrix" style="width:500px;height:200px;margin:10px auto 0px" id = "seqmatrix"></canvas>
+		<canvas nx="slider" id="slider1"></canvas>
+	</body>
+
+
+</html>

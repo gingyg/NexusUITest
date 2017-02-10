@@ -1,0 +1,249 @@
+
+<html>
+	<head>
+		<title>gjhgjgf NexusUI</title>
+		<script src="socket.io/socket.io.js"></script>
+		
+		<script src="nexusUI.js"></script>
+		<script>
+			
+			
+			// setup websocket
+			var socket = io('/BELA_NEXUSUI');
+			
+			// nexusUI
+			nx.onload = function() {
+				
+				
+			    nx.colorize("accent", "#0be");
+			    nx.colorize("fill", "#444449");
+				
+				// initialize matrix
+
+				button00.on('*',function(data){socket.emit('nx', {id:0, value: data.value})});
+				button01.on('*',function(data){socket.emit('nx', {id:1, value: data.value})});
+				button02.on('*',function(data){socket.emit('nx', {id:2, value: data.value})});
+				button03.on('*',function(data){socket.emit('nx', {id:3, value: data.value})});
+				button04.on('*',function(data){socket.emit('nx', {id:4, value: data.value})});
+				button05.on('*',function(data){socket.emit('nx', {id:5, value: data.value})});
+				button06.on('*',function(data){socket.emit('nx', {id:6, value: data.value})});
+				button07.on('*',function(data){socket.emit('nx', {id:7, value: data.value})});
+				button08.on('*',function(data){socket.emit('nx', {id:8, value: data.value})});
+				button09.on('*',function(data){socket.emit('nx', {id:9, value: data.value})});
+				button0A.on('*',function(data){socket.emit('nx', {id:10, value: data.value})});
+				button0B.on('*',function(data){socket.emit('nx', {id:11, value: data.value})});
+				button0C.on('*',function(data){socket.emit('nx', {id:12, value: data.value})});
+				button0D.on('*',function(data){socket.emit('nx', {id:13, value: data.value})});
+				button0E.on('*',function(data){socket.emit('nx', {id:14, value: data.value})});
+				button0F.on('*',function(data){socket.emit('nx', {id:15, value: data.value})});
+				button10.on('*',function(data){socket.emit('nx', {id:16, value: data.value})});
+				button11.on('*',function(data){socket.emit('nx', {id:17, value: data.value})});
+				button12.on('*',function(data){socket.emit('nx', {id:18, value: data.value})});
+				button13.on('*',function(data){socket.emit('nx', {id:19, value: data.value})});
+				button14.on('*',function(data){socket.emit('nx', {id:20, value: data.value})});
+				button15.on('*',function(data){socket.emit('nx', {id:21, value: data.value})});
+				button16.on('*',function(data){socket.emit('nx', {id:22, value: data.value})});
+				button17.on('*',function(data){socket.emit('nx', {id:23, value: data.value})});
+				button18.on('*',function(data){socket.emit('nx', {id:24, value: data.value})});
+				button19.on('*',function(data){socket.emit('nx', {id:25, value: data.value})});
+				button1A.on('*',function(data){socket.emit('nx', {id:26, value: data.value})});
+				button1B.on('*',function(data){socket.emit('nx', {id:27, value: data.value})});
+				button1C.on('*',function(data){socket.emit('nx', {id:28, value: data.value})});
+				button1D.on('*',function(data){socket.emit('nx', {id:29, value: data.value})});
+				button1E.on('*',function(data){socket.emit('nx', {id:30, value: data.value})});
+				button1F.on('*',function(data){socket.emit('nx', {id:31, value: data.value})});
+				button20.on('*',function(data){socket.emit('nx', {id:32, value: data.value})});
+				button21.on('*',function(data){socket.emit('nx', {id:33, value: data.value})});
+				button22.on('*',function(data){socket.emit('nx', {id:34, value: data.value})});
+				button23.on('*',function(data){socket.emit('nx', {id:35, value: data.value})});
+				button24.on('*',function(data){socket.emit('nx', {id:36, value: data.value})});
+				button25.on('*',function(data){socket.emit('nx', {id:37, value: data.value})});
+				button26.on('*',function(data){socket.emit('nx', {id:38, value: data.value})});
+				button27.on('*',function(data){socket.emit('nx', {id:39, value: data.value})});
+				button28.on('*',function(data){socket.emit('nx', {id:40, value: data.value})});
+				button29.on('*',function(data){socket.emit('nx', {id:41, value: data.value})});
+				button2A.on('*',function(data){socket.emit('nx', {id:42, value: data.value})});
+				button2B.on('*',function(data){socket.emit('nx', {id:43, value: data.value})});
+				button2C.on('*',function(data){socket.emit('nx', {id:44, value: data.value})});
+				button2D.on('*',function(data){socket.emit('nx', {id:45, value: data.value})});
+				button2E.on('*',function(data){socket.emit('nx', {id:46, value: data.value})});
+				button2F.on('*',function(data){socket.emit('nx', {id:47, value: data.value})});
+				button30.on('*',function(data){socket.emit('nx', {id:48, value: data.value})});
+				button31.on('*',function(data){socket.emit('nx', {id:49, value: data.value})});
+				button32.on('*',function(data){socket.emit('nx', {id:50, value: data.value})});
+				button33.on('*',function(data){socket.emit('nx', {id:51, value: data.value})});
+				button34.on('*',function(data){socket.emit('nx', {id:52, value: data.value})});
+				button35.on('*',function(data){socket.emit('nx', {id:53, value: data.value})});
+				button36.on('*',function(data){socket.emit('nx', {id:54, value: data.value})});
+				button37.on('*',function(data){socket.emit('nx', {id:55, value: data.value})});
+				button38.on('*',function(data){socket.emit('nx', {id:56, value: data.value})});
+				button39.on('*',function(data){socket.emit('nx', {id:57, value: data.value})});
+				button3A.on('*',function(data){socket.emit('nx', {id:58, value: data.value})});
+				button3B.on('*',function(data){socket.emit('nx', {id:59, value: data.value})});
+				button3C.on('*',function(data){socket.emit('nx', {id:60, value: data.value})});
+				button3D.on('*',function(data){socket.emit('nx', {id:61, value: data.value})});
+				button3E.on('*',function(data){socket.emit('nx', {id:62, value: data.value})});
+				button3F.on('*',function(data){socket.emit('nx', {id:63, value: data.value})});
+				button40.on('*',function(data){socket.emit('nx', {id:64, value: data.value})});
+				button41.on('*',function(data){socket.emit('nx', {id:65, value: data.value})});
+				button42.on('*',function(data){socket.emit('nx', {id:66, value: data.value})});
+				button43.on('*',function(data){socket.emit('nx', {id:67, value: data.value})});
+				button44.on('*',function(data){socket.emit('nx', {id:68, value: data.value})});
+				button45.on('*',function(data){socket.emit('nx', {id:69, value: data.value})});
+				button46.on('*',function(data){socket.emit('nx', {id:70, value: data.value})});
+				button47.on('*',function(data){socket.emit('nx', {id:71, value: data.value})});
+				button48.on('*',function(data){socket.emit('nx', {id:72, value: data.value})});
+				button49.on('*',function(data){socket.emit('nx', {id:73, value: data.value})});
+				button4A.on('*',function(data){socket.emit('nx', {id:74, value: data.value})});
+				button4B.on('*',function(data){socket.emit('nx', {id:75, value: data.value})});
+				button4C.on('*',function(data){socket.emit('nx', {id:76, value: data.value})});
+				button4D.on('*',function(data){socket.emit('nx', {id:77, value: data.value})});
+				button4E.on('*',function(data){socket.emit('nx', {id:78, value: data.value})});
+				button4F.on('*',function(data){socket.emit('nx', {id:79, value: data.value})});
+				button50.on('*',function(data){socket.emit('nx', {id:80, value: data.value})});
+				button51.on('*',function(data){socket.emit('nx', {id:81, value: data.value})});
+				button52.on('*',function(data){socket.emit('nx', {id:82, value: data.value})});
+				button53.on('*',function(data){socket.emit('nx', {id:83, value: data.value})});
+				button54.on('*',function(data){socket.emit('nx', {id:84, value: data.value})});
+				button55.on('*',function(data){socket.emit('nx', {id:85, value: data.value})});
+				button56.on('*',function(data){socket.emit('nx', {id:86, value: data.value})});
+				button57.on('*',function(data){socket.emit('nx', {id:87, value: data.value})});
+				button58.on('*',function(data){socket.emit('nx', {id:88, value: data.value})});
+				button59.on('*',function(data){socket.emit('nx', {id:89, value: data.value})});
+				button5A.on('*',function(data){socket.emit('nx', {id:90, value: data.value})});
+				button5B.on('*',function(data){socket.emit('nx', {id:91, value: data.value})});
+				button5C.on('*',function(data){socket.emit('nx', {id:92, value: data.value})});
+				button5D.on('*',function(data){socket.emit('nx', {id:93, value: data.value})});
+				button5E.on('*',function(data){socket.emit('nx', {id:94, value: data.value})});
+				button5F.on('*',function(data){socket.emit('nx', {id:95, value: data.value})});
+
+
+				
+				// when slider1 changes, emit its value over the websocket
+				//seqmatrix.sendsTo("node");
+				//nx.sendsTo("node");
+				
+
+								
+				
+			};
+			
+			
+			
+		</script>
+	</head>
+		
+	<body>
+		<div>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button00"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button01"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button02"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button03"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button04"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button05"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button06"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button07"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button08"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button09"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button0A"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button0B"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button0C"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button0D"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button0E"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button0F"></canvas>
+		</div>
+		<div>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button10"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button11"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button12"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button13"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button14"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button15"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button16"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button17"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button18"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button19"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button1A"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button1B"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button1C"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button1D"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button1E"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button1F"></canvas>
+		</div>
+		<div>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button20"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button21"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button22"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button23"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button24"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button25"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button26"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button27"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button28"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button29"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button2A"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button2B"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button2C"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button2D"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button2E"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button2F"></canvas>
+		</div>
+		<div>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button30"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button31"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button32"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button33"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button34"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button35"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button36"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button37"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button38"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button39"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button3A"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button3B"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button3C"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button3D"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button3E"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button3F"></canvas>
+		</div>
+		<div>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button40"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button41"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button42"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button43"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button44"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button45"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button46"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button47"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button48"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button49"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button4A"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button4B"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button4C"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button4D"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button4E"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button4F"></canvas>
+		</div>
+		<div>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button50"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button51"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button52"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button53"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button54"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button55"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button56"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button57"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button58"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button59"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button5A"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button5B"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button5C"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button5D"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button5E"></canvas>
+		<canvas nx="button" style="width:32px;height:32px;margin:1px auto 0px" id = "button5F"></canvas>
+		</div>
+		<canvas nx="slider" id="slider1"></canvas>
+	</body>
+
+
+</html>
